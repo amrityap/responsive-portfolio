@@ -1,0 +1,266 @@
+:root {
+    font-size: 16px;
+}
+
+body{
+
+	background-color: #636165;
+	background-image: url("portfolioimage.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0vw; 
+
+}
+
+.mainintroduction1{
+	height: 1vw;
+}
+.mainintroduction1 .mainintroduction2{
+display : flex;
+flex-direction: column ;
+align-items: center;
+color: #ECEBEB;
+margin-top: 12.5vw;
+margin-bottom: 1vw;
+height: 1vw;
+font-family: 'Open Sans', sans-serif;
+font-size: 2vw;
+}
+/*.contact{
+	
+	
+
+}*/
+.contactimage{
+	
+	width:40px;
+	 
+    
+}
+
+@media screen and (max-width: 389px){
+	.contactimage{
+		width: 10vw;
+	}
+}
+
+#gmailpic{
+  border: 1px solid #3a424f;
+    border-radius: 5px;
+    box-shadow: 0px 3px 20px 2px #2c2c2c;
+}
+
+
+
+	
+
+
+ .details{
+ 	 display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 46vw;
+    background-color: grey;
+}
+.containimage{
+	margin-right: 10px;
+}
+
+ #myownface{
+  border: 1px solid #3a424f;
+    border-radius: 5px;
+    box-shadow: 0px 3px 20px 2px #2c2c2c;
+    width: 25vw;
+   
+ }
+ .quoralink{
+ 	color: #CC2200;
+ 	text-decoration:none;
+ }
+
+@media only screen and (max-width: 725px) {
+    .details {
+        flex-direction: column;
+        margin-top: 54vw;
+    }
+    .details .containimage {
+        order: -1;
+    }
+    .details #myownface {
+        width: 60vw;
+        margin-top: 10px;
+    }
+}
+
+.completedetails{
+	
+    font-family: 'Open Sans', sans-serif;
+        padding: 5vw 5vw 5vw 0vw;
+        color: #ECEBEB;
+        margin-left: 6vh;
+        margin-right: 6vh
+}
+
+
+.aboutheading{
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-size: 60px;
+}
+.containparagraph .paragraph{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2rem;
+	 padding: 5vw 5vw 5vw 0vw;
+}
+.hobbies{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1rem;
+}
+
+
+
+.technologies{
+
+	background-color: white;
+
+}
+.containimages{
+	
+	display: flex;
+    flex-direction : row;
+	  flex-wrap: wrap;
+	justify-content: space-around;
+}
+.logos{
+
+	width: 180px;
+	margin-right: 25px;
+	
+	height: 200px;
+	margin-top: 20px;
+
+}
+
+#typescriptlogo{
+width: 250px;
+}
+
+#angularjslogo{
+width: 250px;
+}
+#nodelogo{
+	width: 250px;
+}
+#mongodblogo{
+	height: 140px;
+	width: 250px;
+}
+
+#expressjslogo{
+		width: 250px;
+
+}
+.technologyheading{
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-size: 60px;
+}
+
+@media screen and (max-width: 524px){
+	.mainintroduction1 .mainintroduction2{
+		
+		font-size: 3.5vw; 
+		text-align: center;
+		margin-top: 2vh;
+	}
+	.aboutheading{
+
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-size: 10vw;
+}
+.technologyheading{
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-size: 10vw;
+}
+}
+.technologypara{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+@media screen and (max-width: 279px){
+	.logos{
+
+	width: 50;
+	margin-right: 25px;
+	
+	height: 60vw;
+	margin-top: 20px;
+
+}
+
+#typescriptlogo{
+width: 60vw;
+}
+
+#angularjslogo{
+width: 60vw;
+}
+#nodelogo{
+	width: 60vw;
+}
+#mongodblogo{
+	height: 70vw;
+	width: 60vw;
+}
+
+#expressjslogo{
+		width: 60vw;
+
+}
+}
+
+.projects{
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(179, 42, 120,0.9);
+	
+	height: 50vh;
+}
+.projecheading{
+		text-align: center;
+		font-size: 60px;
+
+}
+
+@media screen  and (max-width : 524px ){
+	
+	.projecheading{
+		text-align: center;
+		font-size: 10vw;
+}
+}
+
+.sub-projects{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5rem;
+	color: #ECEBEB;
+	
+}
+
+
+
+
+
+
